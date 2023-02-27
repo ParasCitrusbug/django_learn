@@ -17,11 +17,18 @@ from django.contrib import admin
 from django.urls import path, include
 from .views import *
 from employee import urls
+from django.conf import settings
+from django.conf.urls.static import static
+from student import urls
+from employee2 import urls
+
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("index/", index),
     path("about/", about),
     path("service/", service),
-    path("employee/", include("employee.urls")),
-]
+    path("employee/", include("employee.urls"), name="employee"),
+    path("student/", include("student.urls"), name="student"),
+    path("employee2/", include("employee2.urls"), name="employee2"),
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

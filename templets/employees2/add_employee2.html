@@ -13,26 +13,23 @@
 	</head>
 	<body>
 		{% include "employees/navbar.html" %}
-		<center><h1>Update employee details</h1></center>
+		<center><h1>Add employee</h1></center>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 offset-md-3">
 					<div class="card">
 						<div class="card-body">
-							<form
-								action="/employee/do_update_employee/{{emp.id}}"
-								method="POST"
-							>
+							<form action="/employee2/add_employee2/" method="POST">
 								{% csrf_token %}
 								<div class="md-3">
 									<label for="name">Employee Name</label>
 									<input
 										type="text"
 										id="name"
-										value="{{emp.employee_name}}"
 										class="form-control"
 										name="employee_name"
 										placeholder="Enter employee name"
+										required
 									/>
 								</div>
 								<div class="md-3">
@@ -40,10 +37,10 @@
 									<input
 										type="text"
 										id="empid"
-										value="{{emp.employee_id}}"
 										name="employee_id"
 										class="form-control"
 										placeholder="Enter employee id"
+										required
 									/>
 								</div>
 								<div class="md-3">
@@ -51,10 +48,10 @@
 									<input
 										type="text"
 										id="phone"
-										value="{{emp.employee_phone}}"
 										name="employee_phone"
 										class="form-control"
 										placeholder="Enter employee phone number"
+										required
 									/>
 								</div>
 								<div class="md-3">
@@ -65,21 +62,12 @@
 										class="form-control"
 										rows="5"
 										placeholder="Enter employee adress"
-									>
-{{emp.employee_address}}</textarea
-									>
+										required
+									></textarea>
 								</div>
 								<div class="md-3 form-check">
 									<label for="working">Employee Working</label>
 									<input
-										{%
-										if
-										emp.employee_working
-										%}
-										checked
-										{%
-										endif
-										%}
 										id="working"
 										name="employee_working"
 										type="checkbox"
@@ -90,7 +78,6 @@
 									<label for="department">Employee Department</label>
 									<select
 										id="department"
-										value="{{emp.employee_department}}"
 										name="employee_department"
 										class="form-control"
 									>
@@ -100,7 +87,7 @@
 									</select>
 								</div>
 								<div class="container text-center">
-									<button class="btn btn-success">Update</button>
+									<button class="btn btn-primary">Add Employee</button>
 								</div>
 							</form>
 						</div>

@@ -1,7 +1,10 @@
 from django.db import models
 
 # Create your models here.
-class EmployeeData(models.Model):
+from django.db import models
+
+# Create your models here.
+class EmployeeData2(models.Model):
     employee_name = models.CharField(max_length=200)
     employee_id = models.CharField(max_length=200)
     employee_phone = models.CharField(max_length=10)
@@ -13,11 +16,4 @@ class EmployeeData(models.Model):
         return self.employee_name
 
 
-class Testimonial(models.Model):
-    name = models.CharField(max_length=200)
-    testimonial = models.TextField()
-    picture = models.ImageField(upload_to="testimonial/")
-    rating = models.IntegerField(max_length=1)
 
-    def __str__(self) -> str:
-        return self.name
