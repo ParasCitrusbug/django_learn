@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-l(#nas^%9_=#e-+ac-_j2(%8fm^bf&vi@3g#u#fsmmx_p%9)^d"
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -80,10 +80,14 @@ WSGI_APPLICATION = "myproject.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": os.getenv("DB_DATABASE"),
+        "USER": os.getenv("DB_USERNAME"),
+        "PASSWORD": os.getenv("DB_PASSWORD"),
+        "HOST": os.getenv("DB_HOST"),
+        "PORT": os.getenv("DB_PORT"),
+        }
     }
-}
 
 
 # Password validation
@@ -133,15 +137,31 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # logger
 
-
 LOGGING = {
-    "version": 1,  # the dictConfig format version
-    "disable_existing_loggers": False,  # retain the default loggers
-    "handlers": {
-        "file": {
-            "class": "logging.FileHandler",
-            "filename": "logger/general.log",
-            "level": "DEBUG",
+    'version': 1,                       # the dictConfig format version
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'class': 'logging.FileHandler',
+            'filename': 'logger/logger.log',
+            'level': 'DEBUG',
+            'formatter': 'verbose',
+        },
+    },  # retain the default loggers
+    'loggers': {
+        'root': {
+            'level': 'DEBUG',
+            'handlers': ['file'],
+        },
+    },
+    'formatters': {
+        'verbose': {
+            'format': '{name} {levelname} {asctime} {module} {process:d} {thread:d} {message}',
+            'style': '{',
+        },
+        'simple': {
+            'format': '{levelname} {message}',
+            'style': '{',
         },
     },
 }

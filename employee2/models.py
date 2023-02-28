@@ -16,4 +16,16 @@ class EmployeeData2(models.Model):
         return self.employee_name
 
 
-
+CITY_CHOICES = (
+    ("Rajkot", "Rajkot"),
+    ("Ahmedabad", "Ahmedabad"),
+    ("Amreli", "Amreli"),
+    ("Baroda", "Baroda"),
+)
+class UserData(models.Model):
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    name = models.CharField(max_length=25, null=False)
+    email = models.EmailField(unique=True)
+    password = models.CharField(max_length=100, null=False)
+    city = models.CharField(max_length=25,choices=CITY_CHOICES,default="Rajkot")

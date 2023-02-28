@@ -6,6 +6,8 @@ from employee2.views import (
     DeleteEmployee,
     UpdateEmployee,
     DoUpdateEmployee,
+    LoginUser,
+    LogoutUser,
 )
 
 urlpatterns = [
@@ -23,4 +25,8 @@ urlpatterns = [
         DoUpdateEmployee.as_view(),
         name="do_update_employee2",
     ),
+    path("login/", LoginUser.as_view(), name="login"),
+    path("logout/", LogoutUser.as_view(), name="logout"),
+
+
 ]

@@ -13,6 +13,9 @@
 	</head>
 	<body>
 		{% include 'employees/navbar.html' %}
+		{% if user %}
+		<a class="btn btn-sm btn-success" href="{% url 'logout' %}" >Logout</a>
+		{% endif %}
 		<h1 class="text-center my-3">Employee Management</h1>
 		<h3 class="text-center my-3">List of Employee</h3>
 		<div class="container">

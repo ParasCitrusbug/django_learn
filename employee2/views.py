@@ -3,11 +3,38 @@ from django.shortcuts import render
 # Create your views here.
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
-from .models import EmployeeData2
+from .models import EmployeeData2, UserData
 from django.views.generic.base import TemplateView
-from django.views.generic.edit import DeleteView
-
+from django.views.generic.edit import CreateView
+import logging
 from django.views import View
+from employee2 import forms
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from django.utils.decorators import method_decorator
+
+
+# Get an instance of a logger
+logger = logging.getLogger(__name__)
+
+
+class LoginUser(CreateView):
+    """login user"""
+
+    form_class = forms.UserForm
+    template_name = "employees2/login.html"
+
+    def post(self, request):
+        email = request.POST.get("email")
+        password = request.POST.get("password")
+        fm = self.form_class(request.POST)
+        user = UserData.objects.filter(email=email, password=password)
+        if user and fm:
+            request.session["email"] = "email"
+            return redirect("home2")
+        else:
+            messages.error(request, "invalid email and password")
+            return redirect("login")
 
 
 class EmployeeHome(TemplateView):
@@ -16,6 +43,7 @@ class EmployeeHome(TemplateView):
     template_name = "employees2/home2.html"
 
     def get_context_data(self):
+
         employee_data = EmployeeData2.objects.all()
         context = {"employee_data": employee_data}
         return context
@@ -25,6 +53,7 @@ class AddEmployee(View):
     """Employee data add"""
 
     template_name = "employees2/add_employee2.html"
+    employee_form = forms.EmployeeForm()
 
     def get(self, request):
         return render(request, self.template_name)
@@ -59,7 +88,7 @@ class DeleteEmployee(View):
     def get(self, request, id):
         emp_id = EmployeeData2.objects.get(pk=id)
         emp_id.delete()
-        return redirect("/employee2/home2")
+        return redirect("home2")
 
 
 class UpdateEmployee(View):
@@ -98,3 +127,12 @@ class DoUpdateEmployee(View):
         e.save()
 
         return redirect("home2")
+
+
+class LogoutUser(View):
+    def get(self, request):
+        try:
+            del request.session["email"]
+        except KeyError:
+            pass
+        return HttpResponse("You're logged out.")
