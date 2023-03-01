@@ -1,22 +1,15 @@
 from django.shortcuts import render
 
 # Create your views here.
-from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from .models import EmployeeData2, UserData
 from django.views.generic.base import TemplateView
-from django.views.generic.edit import CreateView, FormView
+from django.views.generic.edit import CreateView
 import logging
 from django.views import View
 from employee2 import forms
 from employee2.forms import ChangePasswordForm
-
 from django.contrib import messages
-from django.contrib.auth.decorators import login_required
-from django.utils.decorators import method_decorator
-from django.core.mail import send_mail
-import time
-from django.utils.decorators import decorator_from_middleware
 from django.utils.decorators import method_decorator
 from .middleware.auth_middleware import SessionMiddleware
 

@@ -8078,3 +8078,6 @@ django.utils.autoreload INFO 2023-03-01 18:03:24,150 autoreload 10464 8564 C:\Us
 django.utils.autoreload INFO 2023-03-01 18:03:24,637 autoreload 13660 12752 Watching for file changes with StatReloader
 django.utils.autoreload INFO 2023-03-01 18:03:31,048 autoreload 13660 12752 C:\Users\Citrusbug\Desktop\django learn\myproject\settings.py changed, reloading.
 django.utils.autoreload INFO 2023-03-01 18:03:31,526 autoreload 3952 9884 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-01 19:00:03,642 autoreload 15468 19044 Watching for file changes with StatReloader
+django.request WARNING 2023-03-01 19:00:08,627 log 15468 5964 Not Found: /
+django.request WARNING 2023-03-01 19:00:14,070 log 15468 5964 Not Found: /
