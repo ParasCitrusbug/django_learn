@@ -8,6 +8,8 @@ from employee2.views import (
     DoUpdateEmployee,
     LoginUser,
     LogoutUser,
+    ForgotPassword,
+    ChangePassword,
 )
 
 urlpatterns = [
@@ -27,6 +29,6 @@ urlpatterns = [
     ),
     path("login/", LoginUser.as_view(), name="login"),
     path("logout/", LogoutUser.as_view(), name="logout"),
-
-
+    path("fargotpassword/", ForgotPassword.as_view(), name="forgot_password"),
+    path("changepassword/<int:id>", ChangePassword.as_view(), name="change_password"),
 ]

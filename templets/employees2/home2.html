@@ -1,4 +1,6 @@
+
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -10,12 +12,41 @@
 			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
 			crossorigin="anonymous"
 		/>
+		<!-- <link type="stylesheet" href="/static/css/home2.css"> -->
+		
 	</head>
 	<body>
-		{% include 'employees/navbar.html' %}
-		{% if user %}
-		<a class="btn btn-sm btn-success" href="{% url 'logout' %}" >Logout</a>
-		{% endif %}
+		
+		<div
+			class="d-flex"
+			style="height: 70px; color: black; background-color: blue;"
+			
+		>
+			<h1
+				class="text-center"
+				style="width: 62%; color: black; margin-left: 352px"
+			>
+				{{request.session.email}}
+				
+
+			</h1>
+			<div class="text-end">
+				<a
+					class="btn btn-sm btn-success"
+					style="height: 70px; color: black; font-size: 35px"
+					href="{% url 'logout' %}"
+					>Logout</a
+				>
+				<a
+					class="btn btn-sm btn-success"
+					style="height: 70px; color: black; font-size: 35px"
+					href="{% url 'add_employee2' %}"
+					>Add employee</a
+				>
+				
+			</div>
+		</div>
+
 		<h1 class="text-center my-3">Employee Management</h1>
 		<h3 class="text-center my-3">List of Employee</h3>
 		<div class="container">
