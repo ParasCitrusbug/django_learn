@@ -1,12 +1,13 @@
 from django import forms
-from employee2 import models
+
+from employee import models
 
 
 class EmployeeForm(forms.Form):
     """Employee data form"""
 
     class Meta:
-        model = models.EmployeeData2
+        model = models.EmployeeData
         fields = "__all__"
 
 
@@ -23,7 +24,7 @@ class UserForm(forms.ModelForm):
 
 
 class ForgotPasswordForm(forms.ModelForm):
-    """fargot password"""
+    """forgot password form"""
 
     class Meta:
         model = models.UserData
@@ -34,10 +35,10 @@ class ForgotPasswordForm(forms.ModelForm):
 
 
 class ChangePasswordForm(forms.Form):
-    """Change password"""
+    """Change password form"""
 
-    new_password = forms.CharField()
-    comfirm_password = forms.CharField()
+    new_password = forms.CharField(max_length=16)
+    confirm_password = forms.CharField(max_length=16)
 
     new_password.widget.attrs = {"class": "form-control"}
-    comfirm_password.widget.attrs = {"class": "form-control"}
+    confirm_password.widget.attrs = {"class": "form-control"}

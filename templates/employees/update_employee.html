@@ -12,22 +12,25 @@
 		/>
 	</head>
 	<body>
-		
-		<center><h1>Add employee</h1></center>
+		{% for msg in messages %}
+		<h4 class="text-center">{{msg}}</h4>
+		{% endfor %}
+		<center><h1>Update employee details</h1></center>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 offset-md-3">
 					<div class="card">
 						<div class="card-body">
-							<form action="/employee2/add_employee2/" method="POST">
+							<form action="/employee/update_employee/{{emp.id}}" method="POST">
 								{% csrf_token %}
 								<div class="md-3">
 									<label for="name">Employee Name</label>
 									<input
 										type="text"
 										id="name"
+										value="{{emp.name}}"
 										class="form-control"
-										name="employee_name"
+										name="name"
 										placeholder="Enter employee name"
 										required
 									/>
@@ -37,6 +40,7 @@
 									<input
 										type="text"
 										id="empid"
+										value="{{emp.employee_id}}"
 										name="employee_id"
 										class="form-control"
 										placeholder="Enter employee id"
@@ -46,9 +50,10 @@
 								<div class="md-3">
 									<label for="phone">Employee Phone No.</label>
 									<input
-										type="text"
+										type="number"
 										id="phone"
-										name="employee_phone"
+										value="{{emp.phone_number}}"
+										name="phone_number"
 										class="form-control"
 										placeholder="Enter employee phone number"
 										required
@@ -58,18 +63,27 @@
 									<label for="adress">Employee Address</label>
 									<textarea
 										id="adress"
-										name="employee_address"
+										name="address"
 										class="form-control"
 										rows="5"
-										placeholder="Enter employee adress"
+										placeholder="Enter employee address"
 										required
-									></textarea>
+									>{{emp.address}}</textarea
+									>
 								</div>
 								<div class="md-3 form-check">
 									<label for="working">Employee Working</label>
 									<input
+										{%
+										if
+										emp.working
+										%}
+										checked
+										{%
+										endif
+										%}
 										id="working"
-										name="employee_working"
+										name="working"
 										type="checkbox"
 										class="form-check"
 									/>
@@ -78,16 +92,18 @@
 									<label for="department">Employee Department</label>
 									<select
 										id="department"
-										name="employee_department"
+										value="{{emp.department}}"
+										name="department"
 										class="form-control"
 									>
-										<option value="cse">computer</option>
-										<option value="me">mechanical</option>
-										<option value="ee">electrical</option>
+										<option value="Computer">Computer</option>
+										<option value="Mechanical">Mechanical</option>
+										<option value="Electrical">Electrical</option>
+										<option value="IT">IT</option>
 									</select>
 								</div>
 								<div class="container text-center">
-									<button class="btn btn-primary">Add Employee</button>
+									<button class="btn btn-success">Update</button>
 								</div>
 							</form>
 						</div>

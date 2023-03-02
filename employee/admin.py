@@ -1,6 +1,7 @@
 from django.contrib import admin
-from .models import EmployeeData2, UserData
+
+from .models import EmployeeData, UserData
 
 # Register your models here.
-admin.site.register(EmployeeData2)
+admin.site.register(EmployeeData)
 admin.site.register(UserData)
