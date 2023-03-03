@@ -8,13 +8,9 @@ from django.views.generic.edit import CreateView
 from django.views.generic.base import TemplateView
 from django.views import View
 
+from employee import forms
 from .models import EmployeeData, UserData
 from .middleware.auth_middleware import SessionMiddleware
-
-from employee import forms
-from employee.forms import ChangePasswordForm
-from django.contrib.messages.views import SuccessMessageMixin
-
 
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
@@ -29,19 +25,19 @@ class LoginUser(CreateView):
     def post(self, request):
         email = request.POST.get("email")
         password = request.POST.get("password")
-        print(email)
         form_data = self.form_class(request.POST)
         user = UserData.objects.filter(email=email)
-
-        if user and form_data and check_password(password, user[0].password):
-            request.session["email"] = email
-            return redirect("home")
+        if user and form_data:
+            user = UserData.objects.get(email=email)
+            if check_password(password, user.password):
+                request.session["email"] = email
+                return redirect("home")
+            else:
+                messages.error(request, "invalid password")
+                return redirect("login")
         else:
             messages.error(request, "invalid email and password")
             return redirect("login")
-
-
-print(UserData.objects.all()[6].email)
 
 
 class EmployeeHome(TemplateView):
@@ -88,12 +84,10 @@ class AddEmployee(View):
                 working=working,
                 department=department,
             )
+            return redirect("home")
         except Exception as e:
-            print(e)
             messages.info(request, e)
             return redirect("add_employee")
-
-        return redirect("home")
 
 
 class DeleteEmployee(View):
@@ -107,11 +101,10 @@ class DeleteEmployee(View):
         return redirect("home")
 
 
-class UpdateEmployee(SuccessMessageMixin, View):
+class UpdateEmployee(View):
     """redirect to only update data of employee"""
 
     template_name = "employees/update_employee.html"
-    success_message = "was created successfully"
 
     @method_decorator(SessionMiddleware, name="dispatch")
     def get(self, request, id):
@@ -141,7 +134,6 @@ class UpdateEmployee(SuccessMessageMixin, View):
             )
             return redirect("home")
         except Exception as e:
-            print(e)
             messages.info(request, e)
             return redirect("update_employee", pk)
 
@@ -183,7 +175,7 @@ class ChangePassword(View):
     template_name = "employees/change_password.html"
 
     def get(self, request, id):
-        change_password_form = ChangePasswordForm()
+        change_password_form = forms.ChangePasswordForm()
         context = {"form": change_password_form, "id": id}
         return render(request, self.template_name, context)
 

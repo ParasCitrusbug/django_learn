@@ -12,6 +12,9 @@
 		/>
 	</head>
 	<body>
+		{% for msg in messages %}
+		<h4 class="text-center">{{msg}}</h4>
+		{% endfor %}
 		<center><h1>Add Employee</h1></center>
 		<div class="container">
 			<div class="row">

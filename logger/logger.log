@@ -14591,3 +14591,251 @@ django.utils.autoreload INFO 2023-03-02 20:09:08,526 autoreload 13568 9144 C:\Us
 django.utils.autoreload INFO 2023-03-02 20:09:08,982 autoreload 19016 3716 Watching for file changes with StatReloader
 django.utils.autoreload INFO 2023-03-02 20:09:13,366 autoreload 19016 3716 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
 django.utils.autoreload INFO 2023-03-02 20:09:13,814 autoreload 19168 17608 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:49:04,968 autoreload 16292 12588 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:49:19,651 autoreload 16292 12588 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:49:20,146 autoreload 1480 1296 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:49:32,799 autoreload 1480 1296 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:49:33,295 autoreload 16524 3408 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:49:36,616 autoreload 16524 3408 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:49:37,111 autoreload 18268 16672 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:49:40,416 autoreload 18268 16672 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:49:40,899 autoreload 2268 2212 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:50:27,601 autoreload 2268 2212 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:50:28,087 autoreload 9332 18988 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:50:30,402 autoreload 9332 18988 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:50:30,878 autoreload 17236 15292 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:50:36,117 autoreload 17236 15292 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:50:36,589 autoreload 20368 10648 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:50:38,755 autoreload 20368 10648 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:50:39,279 autoreload 9960 1792 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:50:41,450 autoreload 9960 1792 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:50:41,920 autoreload 15372 17972 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:50:56,564 autoreload 15372 17972 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:50:57,078 autoreload 17252 5172 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:51:00,468 autoreload 17252 5172 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:51:00,953 autoreload 7928 13092 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:51:03,235 autoreload 7928 13092 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:51:03,723 autoreload 9700 11588 Watching for file changes with StatReloader
+django.request WARNING 2023-03-03 09:51:26,516 log 9700 14640 Not Found: /
+django.request WARNING 2023-03-03 09:51:26,573 log 9700 14640 Not Found: /favicon.ico
+django.utils.autoreload INFO 2023-03-03 09:52:30,585 autoreload 9700 11588 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:52:31,049 autoreload 1652 13308 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:52:33,335 autoreload 1652 13308 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:52:33,825 autoreload 18640 20240 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:52:57,702 autoreload 18640 20240 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:52:58,194 autoreload 18920 20888 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:53:03,589 autoreload 18920 20888 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:53:04,070 autoreload 18184 13752 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:53:08,441 autoreload 18184 13752 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:53:08,951 autoreload 13056 7312 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:53:11,282 autoreload 13056 7312 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:53:11,767 autoreload 15348 4248 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:53:20,317 autoreload 15348 4248 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:53:20,786 autoreload 8664 2352 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:53:24,140 autoreload 8664 2352 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:53:24,625 autoreload 8452 15268 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:53:29,995 autoreload 8452 15268 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:53:30,463 autoreload 11048 10572 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:53:31,719 autoreload 11048 10572 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:53:32,193 autoreload 1472 20636 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:53:36,545 autoreload 1472 20636 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:53:37,025 autoreload 16668 10864 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:53:39,313 autoreload 16668 10864 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:53:39,775 autoreload 3312 2704 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:53:58,563 autoreload 3312 2704 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:53:59,038 autoreload 12232 19904 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:54:04,425 autoreload 12232 19904 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:54:04,922 autoreload 11908 9604 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:54:10,274 autoreload 11908 9604 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:54:10,753 autoreload 15404 10700 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:54:53,309 autoreload 15404 10700 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:54:53,771 autoreload 9260 7444 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:55:02,250 autoreload 9260 7444 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:55:02,715 autoreload 15616 6976 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:55:07,077 autoreload 15616 6976 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:55:07,558 autoreload 16800 21428 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:55:09,821 autoreload 16800 21428 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:55:10,293 autoreload 3916 14956 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:55:20,893 autoreload 3916 14956 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:55:21,373 autoreload 5732 15640 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:55:39,140 autoreload 5732 15640 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:55:39,643 autoreload 13428 15836 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:55:41,935 autoreload 13428 15836 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:55:42,432 autoreload 12276 16552 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:55:46,748 autoreload 12276 16552 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:55:47,230 autoreload 20712 5764 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:55:59,794 autoreload 20712 5764 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:56:00,293 autoreload 19364 8276 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:56:05,681 autoreload 19364 8276 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:56:06,176 autoreload 20888 11752 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:56:07,437 autoreload 20888 11752 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:56:07,911 autoreload 13524 21180 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:56:15,346 autoreload 13524 21180 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:56:15,815 autoreload 14584 18184 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:56:19,162 autoreload 14584 18184 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:56:19,642 autoreload 11248 17496 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:58:06,932 autoreload 11248 17496 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:58:07,443 autoreload 20788 5260 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:58:10,773 autoreload 20788 5260 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:58:11,233 autoreload 20912 13516 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:58:13,499 autoreload 20912 13516 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:58:14,008 autoreload 20764 18704 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:58:16,282 autoreload 20764 18704 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:58:16,776 autoreload 16380 12604 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:58:19,978 autoreload 16380 12604 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:58:20,445 autoreload 11552 11776 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:58:22,750 autoreload 11552 11776 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:58:23,235 autoreload 14636 14948 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:58:30,549 autoreload 14636 14948 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:58:31,049 autoreload 14184 20592 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:58:32,332 autoreload 14184 20592 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:58:32,799 autoreload 3584 17972 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:58:52,478 autoreload 3584 17972 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:58:52,942 autoreload 20192 11500 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:58:54,202 autoreload 20192 11500 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:58:54,716 autoreload 19496 2188 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:59:00,075 autoreload 19496 2188 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:59:00,540 autoreload 8736 14564 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:59:01,798 autoreload 8736 14564 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:59:02,317 autoreload 2696 9900 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:59:03,590 autoreload 2696 9900 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:59:04,090 autoreload 19528 8288 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:59:05,264 autoreload 19528 8288 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:59:05,716 autoreload 10456 14956 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:59:10,086 autoreload 10456 14956 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:59:10,547 autoreload 15292 20644 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:59:12,844 autoreload 15292 20644 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:59:13,375 autoreload 12652 14476 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:59:16,691 autoreload 12652 14476 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:59:17,185 autoreload 13040 13428 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:59:19,448 autoreload 13040 13428 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:59:19,987 autoreload 14872 2564 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 09:59:21,230 autoreload 14872 2564 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 09:59:21,693 autoreload 9868 628 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:01:42,134 autoreload 9868 628 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:01:42,603 autoreload 5332 6576 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:01:47,851 autoreload 5332 6576 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:01:48,324 autoreload 19720 19052 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:02:13,420 autoreload 19720 19052 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:02:13,920 autoreload 13768 18116 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:02:15,182 autoreload 13768 18116 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:02:15,644 autoreload 20348 20064 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:02:30,381 autoreload 20348 20064 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:02:30,858 autoreload 10336 12556 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:03:02,121 autoreload 10336 12556 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:03:02,618 autoreload 20640 12052 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:03:03,885 autoreload 20640 12052 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:03:04,354 autoreload 11864 18400 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:03:05,596 autoreload 11864 18400 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:03:06,078 autoreload 9476 6724 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:03:31,077 autoreload 9476 6724 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:03:31,548 autoreload 21020 10796 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:03:42,038 autoreload 21020 10796 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:03:42,555 autoreload 16732 10560 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:03:46,921 autoreload 16732 10560 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:03:47,415 autoreload 12856 2188 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:03:48,561 autoreload 12856 2188 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:03:49,046 autoreload 13256 12832 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:03:50,304 autoreload 13256 12832 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:03:50,791 autoreload 15364 960 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:03:52,039 autoreload 15364 960 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:03:52,526 autoreload 13624 15264 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:04:03,055 autoreload 13624 15264 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:04:03,525 autoreload 3916 7844 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:04:08,921 autoreload 3916 7844 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:04:09,397 autoreload 1756 8600 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:04:17,915 autoreload 1756 8600 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:04:18,380 autoreload 9700 10588 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:04:26,849 autoreload 9700 10588 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:04:27,337 autoreload 3580 2204 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:04:30,637 autoreload 3580 2204 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:04:31,120 autoreload 7416 4140 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:04:33,290 autoreload 7416 4140 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:04:33,761 autoreload 10952 12344 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:04:35,029 autoreload 10952 12344 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:04:35,488 autoreload 6740 3148 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:04:45,018 autoreload 6740 3148 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:04:45,481 autoreload 10460 9624 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:05:44,328 autoreload 21068 20104 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:07:41,016 autoreload 21068 20104 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:07:41,517 autoreload 6196 3228 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:07:43,841 autoreload 6196 3228 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:07:44,312 autoreload 15256 11488 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:07:48,675 autoreload 15256 11488 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:07:49,143 autoreload 2928 1440 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:07:55,622 autoreload 2928 1440 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:07:56,098 autoreload 17064 6368 Watching for file changes with StatReloader
+django.request ERROR 2023-03-03 10:09:31,903 log 17064 18708 Internal Server Error: /employee/login/
+Traceback (most recent call last):
+  File "C:\Users\Citrusbug\.virtualenvs\django_learn-Esu3dW1o\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\Citrusbug\.virtualenvs\django_learn-Esu3dW1o\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Citrusbug\.virtualenvs\django_learn-Esu3dW1o\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Citrusbug\.virtualenvs\django_learn-Esu3dW1o\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Citrusbug\Desktop\django learn\employee\views.py", line 29, in post
+    user_email = UserData.objects.get(email=email)
+  File "C:\Users\Citrusbug\.virtualenvs\django_learn-Esu3dW1o\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Citrusbug\.virtualenvs\django_learn-Esu3dW1o\lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+employee.models.UserData.DoesNotExist: UserData matching query does not exist.
+django.utils.autoreload INFO 2023-03-03 10:10:42,194 autoreload 17064 6368 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:10:42,648 autoreload 15912 18256 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:10:52,163 autoreload 15912 18256 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:10:52,662 autoreload 8020 1996 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:10:54,856 autoreload 8020 1996 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:10:55,334 autoreload 16068 12544 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:10:58,669 autoreload 16068 12544 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:10:59,159 autoreload 18888 8684 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:11:06,600 autoreload 18888 8684 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:11:07,067 autoreload 1884 13512 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:11:08,222 autoreload 1884 13512 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:11:08,717 autoreload 19216 21168 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:11:10,874 autoreload 19216 21168 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:11:11,345 autoreload 16768 17520 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:11:21,995 autoreload 16768 17520 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:11:22,463 autoreload 15620 8948 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:11:41,323 autoreload 15620 8948 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:11:41,802 autoreload 13144 15456 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:11:43,064 autoreload 13144 15456 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:11:43,519 autoreload 19160 21360 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:11:45,715 autoreload 19160 21360 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:11:46,174 autoreload 16088 21476 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:11:50,386 autoreload 16088 21476 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:11:50,848 autoreload 16404 20784 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:11:56,255 autoreload 16404 20784 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:11:56,741 autoreload 21104 1792 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:11:57,998 autoreload 21104 1792 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:11:58,486 autoreload 10944 5172 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:12:06,855 autoreload 10944 5172 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:12:07,320 autoreload 6768 2068 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:12:18,819 autoreload 6768 2068 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:12:19,298 autoreload 5456 10888 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:14:49,044 autoreload 5456 10888 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:14:49,505 autoreload 14084 8628 Watching for file changes with StatReloader
+django.request ERROR 2023-03-03 10:15:07,227 log 14084 1576 Internal Server Error: /employee/login/
+Traceback (most recent call last):
+  File "C:\Users\Citrusbug\.virtualenvs\django_learn-Esu3dW1o\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\Citrusbug\.virtualenvs\django_learn-Esu3dW1o\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Citrusbug\.virtualenvs\django_learn-Esu3dW1o\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view employee.views.view didn't return an HttpResponse object. It returned None instead.
+django.utils.autoreload INFO 2023-03-03 10:15:22,875 autoreload 14084 8628 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:15:23,353 autoreload 12796 16860 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:34:14,145 autoreload 12796 16860 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:34:14,654 autoreload 5440 20292 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:34:16,936 autoreload 5440 20292 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:34:17,400 autoreload 13376 13292 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:34:47,688 autoreload 13376 13292 C:\Users\Citrusbug\Desktop\django learn\myproject\settings.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:34:48,165 autoreload 14400 17748 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:37:04,863 autoreload 7524 16668 Watching for file changes with StatReloader
+django.request WARNING 2023-03-03 10:44:30,616 log 7524 6356 Not Found: /
+django.utils.autoreload INFO 2023-03-03 10:47:27,940 autoreload 7524 16668 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:47:28,511 autoreload 21476 13052 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-03-03 10:47:30,808 autoreload 21476 13052 C:\Users\Citrusbug\Desktop\django learn\employee\views.py changed, reloading.
+django.utils.autoreload INFO 2023-03-03 10:47:31,328 autoreload 16336 7528 Watching for file changes with StatReloader
